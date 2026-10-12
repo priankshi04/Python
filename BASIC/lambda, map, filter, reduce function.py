@@ -1,5 +1,4 @@
 #LAMBDA
-lambda num : nums*2
 multiply = lambda x, y: x*y # CAN HAVE MORE THAN ONE ARG
 print(multiply(2,3))
 #map , filter , reduce - global fn
@@ -21,7 +20,7 @@ print(list(result))
 #REDUCE
 from functools import reduce
 expense=[('dinner',80),('Car repair',120)]
-sum = reduce(lambda a, b: a[1] + b[1], expense# quick method instead of using for loop
+sum = reduce(lambda a, b: a[1] + b[1], expense)# quick method instead of using for loop
 #for expense in expense:
    # sum += expense[1]
 print(sum)
